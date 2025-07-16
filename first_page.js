@@ -9,11 +9,11 @@ let phrase = Math.floor(Math.random()*arr.length);
 return arr[phrase]
 };
 
-/*button.addEventListener('click', function () {
+button.addEventListener('click', function () {
     second_part.textContent = getRandomPhrase(massiv);
-    randomImage.src = "https://picsum.photos/500/300?random=" + Math.random();
+    randomImage.src="https://picsum.practicum-team.ru/random-image?width=300&grayscale" + Math.random();
     
-});*/
+});
 button.addEventListener('click', function () {
   
     let randomElement = getRandomPhrase(massiv);
